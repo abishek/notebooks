@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nlp"
+version = "0.1.0"
+description = "NLP Projects"
+authors = ["Abishek Goda <abishek.goda@hey.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.8.3"
+spacy = "^3.1.1"
+jupyter = "^1.0.0"
+gensim = "^4.0.1"
+nltk = "^3.6.2"
+pandas = "^1.3.2"
+matplotlib = "^3.4.3"
+scikit-learn = "^0.24.2"
+python-Levenshtein = "^0.12.2"
+numpy = "^1.21.2"
+scipy = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
