@@ -215,6 +215,18 @@ test-win = ["pytest", "mock", "cython", "testfixtures", "Morfessor (2.0.2a4)", "
 
 [[package]]
 category = "main"
+description = "Python implementation of Global Vectors for Word Representation (GloVe)"
+name = "glove-python"
+optional = false
+python-versions = "*"
+version = "0.1.0"
+
+[package.dependencies]
+numpy = "*"
+scipy = "*"
+
+[[package]]
+category = "main"
 description = "Internationalized Domain Names in Applications (IDNA)"
 marker = "python_version >= \"3\""
 name = "idna"
@@ -1275,7 +1287,7 @@ version = "3.5.1"
 notebook = ">=4.4.1"
 
 [metadata]
-content-hash = "8d73df5b700aeb9237a3b970691c8b45101f10fe129afd05432c77d771df5678"
+content-hash = "ab74739560217cdb8fc613ac9588dbdf5aa1713bb290ac155383cd1773a53e84"
 lock-version = "1.0"
 python-versions = "3.8.3"
 
@@ -1543,6 +1555,9 @@ gensim = [
     {file = "gensim-4.0.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:5c0cb64d8c6df7e61497cc9d23fdbf552eb18d6d39341271b647d2e84d970e00"},
     {file = "gensim-4.0.1-cp38-cp38-win_amd64.whl", hash = "sha256:c748b77082125ada8ccbf7b1de9e60b7c726b5371a17f207234fee66fb32da05"},
     {file = "gensim-4.0.1.tar.gz", hash = "sha256:b4d0b9562796968684028e06635e0f7aff39ffb33719057fd1667754ea09a6e4"},
+]
+glove-python = [
+    {file = "glove_python-0.1.0.tar.gz", hash = "sha256:b41356669056e58443a2fea6bdcd34c42741779a7e2d698e16d751e785be27a3"},
 ]
 idna = [
     {file = "idna-3.2-py3-none-any.whl", hash = "sha256:14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a"},
