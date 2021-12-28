@@ -1,25 +1,35 @@
 [tool.poetry]
-name = "nlp"
-version = "0.1.0"
-description = "NLP Projects"
+name = "notebooks"
+version = "1.0.0"
+description = "Environment for all NLP and ML notebooks"
 authors = ["Abishek Goda <abishek.goda@hey.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "3.8.3"
-spacy = "^3.1.1"
-jupyter = "^1.0.0"
-gensim = "^4.0.1"
-nltk = "^3.6.2"
-pandas = "^1.3.2"
-matplotlib = "^3.4.3"
-scikit-learn = "^0.24.2"
-python-Levenshtein = "^0.12.2"
-numpy = "^1.21.2"
-scipy = "^1.7.1"
+python = "3.9"
+notebook = "^6.4.6"
+matplotlib = "^3.5.0"
+pandas = "^1.3.4"
+numpy = "^1.21.4"
+opencv-contrib-python = "^4.5.4"
+spacy = {extras = ["lookup"], version = "^3.2.1"}
+stanza = "^1.3.0"
+scikit-learn = "^1.0.1"
+jupyter-contrib-nbextensions = "^0.5.1"
+keras = "^2.7.0"
+tensorflow = "^2.7.0"
+seaborn = "^0.11.2"
+scikit-image = "^0.19.1"
+fastai = "^2.5.3"
+scipy = "^1.7.3"
+nltk = "^3.6.6"
+fbpca = "^1.0"
 
 [tool.poetry.dev-dependencies]
+yapf = "^0.31.0"
+toml = "^0.10.2"
+
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
